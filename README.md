@@ -15,7 +15,7 @@ A strong password should meet the following criteria:
 * At least 1 uppercase letter
 * At least 1 number (0-9)
 * At least 1 symbol (!, #, %, @, $, ^, &, *, (, ), -, +, =)
-1. Encrypt the password and save it to a file.
+3. Encrypt the password and save it to a file.
 
 
 # Special Thanks
