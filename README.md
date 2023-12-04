@@ -20,4 +20,4 @@ A strong password should meet the following criteria:
 
 # Special Thanks
 
-#### Thank you Sutton, Christine for her instruction during this course.
+#### Thank you Christine Sutton for your instruction during this course.
