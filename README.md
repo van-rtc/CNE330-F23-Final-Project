@@ -6,7 +6,7 @@
 Checking password from user's input if it is strong password.
 If it is strong password, let's encrypt the password and save it into a file
 
-#Project Detail 
+# Project Detail 
 
 1. The user creates his password.
 1. Check the password to see if it is a strong password.
