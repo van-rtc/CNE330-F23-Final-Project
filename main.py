@@ -1,3 +1,12 @@
+# CNE330 Fall 2023
+# Student name: Van Luong Vuong
+
+import os
+import getpass
+import pwinput
+from cryptography.fernet import Fernet
+
+
 
 # Check if the password is strong
 def check_strong_password(password):
@@ -32,10 +41,12 @@ def check_strong_password(password):
             print('Password does NOT contain at least 1 number (0-9)')
         return False
   
-              
-
+#Encrypt password
+def encrypt_password(password, key):
+    cipher = Fernet(key)
+    encrypted_password = cipher.encrypt(password.encode())
+    return encrypted_password
 
 if __name__ == "__main__":
-    print("Create a strong password:")
-    password = input("Password: ")
+    password = input(print("Please enter a password:"))
     check_strong_password(password)
