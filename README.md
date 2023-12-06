@@ -4,6 +4,7 @@
 
 # Project Description
 Checking password from user's input if it is strong password.
+
 If it is strong password, let's encrypt the password and save it into a file
 
 # Project Detail 
