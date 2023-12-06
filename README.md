@@ -3,14 +3,15 @@
 ##### Python Networking!
 
 # Project Description
-Checking password from user's input if it is strong password.
+Checking the password from the user's input if it is a strong password.
 
-If it is strong password, let's encrypt the password and save it into a file
+If it is a strong password, let's encrypt the password and save it into a file
 
 # Project Detail 
 
 1. The user creates his password.
 1. Check the password to see if it is a strong password.
+ 
  A strong password should meet the following criteria:
 	* No less than 3 uppercase letters from A to Z
 	* At least 1 uppercase letter
