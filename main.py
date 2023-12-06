@@ -45,7 +45,7 @@ def encrypt_password(password, key):
 #Main
 if __name__ == "__main__":
     #Step 1: Input password
-    print("Please enter a password:")
+    print("Please enter a password:", end=" ")
     user_password = input()
 
     # Step 2: Check if the password is strong
